@@ -10,19 +10,4 @@ abstract class RecipeDatabase : RoomDatabase() {
     abstract fun historyDao(): HistoryDao
     abstract fun favoriteDao(): FavoriteDao
 
-/*    companion object {
-        private var INSTANCE: RecipeDatabase? = null
-
-        fun getDatabase(context: Context): RecipeDatabase {
-            return INSTANCE ?: let {
-                val instance = Room.databaseBuilder(
-                    context,
-                    RecipeDatabase::class.java,
-                    "recipe_database"
-                ).build()
-                INSTANCE = instance
-                instance
-            }
-        }
-    }*/
 }
