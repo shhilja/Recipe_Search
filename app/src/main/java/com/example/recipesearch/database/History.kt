@@ -14,9 +14,5 @@ data class History(
     constructor(val id: Int, val recipeName: String?) {
 
 }
-/*    @ColumnInfo(name = "img_src") var imgSrc: String?,
-    @ColumnInfo(name = "diet_label") var dietLabel: String?,
-    @ColumnInfo(name = "health_label") var healthLabel: String?,
-    @ColumnInfo(name = "meal_type") var mealType: String?,
-    @ColumnInfo(name = "is_favorite") var isFavorite: Boolean*/
+
 )
